@@ -1,0 +1,96 @@
+#homelinearsec {
+	background: linear-gradient( #fa87ec 0%, #a987fa 35%, #6d8efc 100%);
+	position: absolute;
+	height: 800px;
+	color: black;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	opacity: 0.83;
+	display: table;
+	width: 100%;
+	height: 50%;
+	z-index: 8;
+}
+
+h1 {
+	font-variant:small-caps;
+	text-shadow:7px;
+}
+
+img {
+	width:160px;
+	height:238px;
+}
+
+body{
+background-color: #fdb0c0;
+z-index: 9;
+font-family: Parisienne;
+font-size: 24px;
+}
+#aboutme{
+margin-top: 28%;
+}
+.menu{
+width: 100%;
+list-style: none;
+overflow: hidden;
+top: 0px;
+color: white;
+width: 400px;
+background: radial-gradient(#ff5959 , #ffb300 , #fcf93d) !important;
+position: fixed;
+z-index: 999999999999999999999999999999999999999999999;
+}
+
+.links{
+float: none;
+margin: 30px;
+color: white;
+font-size: 24px;
+padding: 10px;
+display: inline;
+}
+.links:hover{
+background-color: darkturquoise;
+}
+
+.bar ul{
+text-align: center;
+background-image: radial-gradient(#ff5959 , #ffb300 , #fcf93d) !important;
+}
+
+ul li{
+display: inline-block;
+padding: 5px;
+margin: 30px;
+text-transform: capitalize;
+}
+
+a{
+color: aliceblue;
+text-decoration-line: none;
+text-justify: inter-word !important;
+}
+
+li{
+list-style-type: none !important;
+}
+
+#inspiration{
+width: 300px;
+height: 200;
+transition: transform .2s;
+border: solid 5px #79ccfc;
+}
+
+#inspiration:hover{
+transform: scale(0.9);
+}
+
+#inspirationSchool{
+width: 300px;
+height: 200;
+}
